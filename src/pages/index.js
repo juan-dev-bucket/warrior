@@ -9,11 +9,10 @@ export default function Home({data}) {
     <Layout>
       <section className={styles.header}>
           <div>
-              <h2>Design</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-              <Link className={styles.btn} to="/about">More about me</Link>
-              <br/>
-              <Link className={styles.btn} to="/projects">Portfolio</Link>
+              <h2>Web Developer</h2>
+              <h3>Develop & Deploy</h3>
+              <p>Full stack developer & automatization developer based in Colombia</p>
+              <Link className={styles.btn} to="/projects">My portfolio projects</Link>
           </div>
           <Img fluid={data.file.childImageSharp.fluid} />
       </section>
